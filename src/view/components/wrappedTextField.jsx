@@ -88,6 +88,7 @@ export default ({
           {supportDataElement && (
             <ActionButton
               aria-label="Open data element selector"
+              data-test-id={`${componentName}-dataElementSelectorButton`}
               alignSelf="flex-end"
               marginStart="size-65"
               marginBottom="size-225"
